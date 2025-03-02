@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-box {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    background-image: url("./img/green-png-44873\ \(1\).png"), url("./img/lamp-png-34914.png"), url("./img/3F3F.webp"), url("./img/donut-removebg-preview.png"), url("./img/1bg.webp") ;
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat-y, no-repeat;
+    background-size: 1500px 200px, 60px 70px, 60px 60px, 60px 60px, 500px;    
+    background-position: bottom, top, top left, top right, center;
+    
+    
+    
+}
+
+/* .donut { 
+    width: 60px;
+    height: 60px;
+    background-position: top 20%;
+
+} */
